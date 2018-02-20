@@ -1,18 +1,9 @@
-console.log('connected')
-$('.readmore a').click(function() {
-  event.preventDefault();
-  $('#show-this-on-click').slideDown();
-  $('.readmore').hide();
-  $('.readless').show();
-})
-$('.readless a').click(function() {
-  event.preventDefault();
-  $('#show-this-on-click').slideUp();
-  $('.readless').hide();
-  $('.readmore').show();
-})
-$('.learnmore').click(function() {
-  event.preventDefault();
-  $('#learn-more-text').slideDown();
-  $('.learnmore').hide();
-})
+// console.log('connected')
+// function myMap() {
+//     var mapOptions = {
+//         center: new google.maps.LatLng(51.5, -0.12),
+//         zoom: 10,
+//         mapTypeId: google.maps.MapTypeId.HYBRID
+//     }
+// var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+// }

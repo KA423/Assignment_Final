@@ -56,18 +56,20 @@ header nav ul li {
 }
 header nav ul li a {
   color: rgba(139,137,137,1);
-  border: solid 8px rgb(255,192,203);
+  border: solid 2px rgb(255,192,203);
   border-radius: 50px;
   padding: 5px;
 }
 
-.hero {
-  background-image: url("https://images.unsplash.com/photo-1464343015641-615326ab2a3a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fd44a70960f67c2e0bc4a27689c246cc&auto=format&fit=crop&w=1334&q=80");
+#hero {
+  background-image: url(https://images.unsplash.com/photo-1464343015641-615326ab2a3a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fd44a70960f67c2e0bc4a27689c246cc&auto=format&fit=crop&w=1334&q=80);
   background-size: cover;
   background-position: center;
-  width: 100wh;
+  width: auto;
   height: 100vh;
   display: flex;
+  color: white;
+  text-shadow:
 }
 
 .center-content {
@@ -102,22 +104,31 @@ header nav ul li a {
   background: white;
   width: auto;
   margin-bottom: 5%;
+  align-items: center;
 }
 
 .contact{
   align-items: center;
 }
 #map{
-  width: 400px;
+  width: 100%;
   height: 400px;
 }
-
+.map{
+  background-color: white;
+  align-items: center;
+}
+.map h3{
+  margin: 0px 0px 0px 10px;
+  font-size: 20px;
+}
 #posts {
   width: auto;
   display: inline-block;
   margin-right: 20px;
   vertical-align: top;
   max-width: 800px;
+  height: auto;
 }
 
 article {
