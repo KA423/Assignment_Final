@@ -1,8 +1,9 @@
 
 html {
-  margin: -10px;
+  margin: -10px -20px -10px -10px;
   padding: 0px;
   border: 0px;
+  height: 100%
 }
 body {
   color: rgba(139,137,137,1);
@@ -11,7 +12,7 @@ body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
   background: rgb(255,192,203);
-  width: 100%;
+  width: auto;
   height: 100%;
 }
 
@@ -20,7 +21,7 @@ a {
 }
 
 .container {
-  width: 960px;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -37,7 +38,7 @@ header {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  width: 100%;
+  width: auto;
 }
 header .logo {
   color: rgba(139,137,137,1);
@@ -93,11 +94,30 @@ header nav ul li a {
 #main {
   margin-top: 80px;
 }
+#home{
+  margin-left: 10%;
+}
+
+#contact{
+  background: white;
+  width: auto;
+  margin-bottom: 5%;
+}
+
+.contact{
+  align-items: center;
+}
+#map{
+  width: 400px;
+  height: 400px;
+}
+
 #posts {
   width: auto;
   display: inline-block;
   margin-right: 20px;
   vertical-align: top;
+  max-width: 800px;
 }
 
 article {
@@ -118,6 +138,7 @@ h2 a {
 .post img {
   margin-bottom: 30px;
   align-items: center;
+  text-align: center;
 }
 .post p {
   font-size: 24px;
