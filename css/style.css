@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+h1 a{
+  color: rgba(139,137,137,1);
+}
+
 .container {
   width: auto;
   margin: 0 auto;
@@ -196,6 +200,11 @@ h2 a {
 
 aside {
   background: rgb(255,255,255);
+  float: right;
+  display: inline-block;
+  width:500px;
+  margin-left: -100px;
+  padding: 5px;
   /* border: 5px solid rgb(255,255,255) */
 }
 
